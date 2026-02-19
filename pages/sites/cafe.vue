@@ -337,6 +337,7 @@
 <script setup>
 definePageMeta({
   layout: false,
+  hideHeader: true,
 });
 
 const originHighlights = [

@@ -428,6 +428,7 @@ import { ref } from "vue";
 
 definePageMeta({
   layout: false,
+  hideHeader: true,
 });
 
 const isModalOpen = ref(false);

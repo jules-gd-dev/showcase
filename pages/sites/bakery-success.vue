@@ -89,6 +89,7 @@ import { gsap } from "gsap";
 
 definePageMeta({
   layout: false,
+  hideHeader: true,
 });
 
 const cursor = ref(null);

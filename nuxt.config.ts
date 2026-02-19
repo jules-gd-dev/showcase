@@ -1,36 +1,69 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2025-07-15",
-  devtools: { enabled: true },
+  compatibilityDate: '2025-07-15',
+  devtools: { enabled: false },
+  css: ['~/assets/css/main.css'],
   app: {
     head: {
-      htmlAttrs: { lang: "fr" },
-      title: "Jules Case — Creative Developer",
-      meta: [
-        { charset: "utf-8" },
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
+      htmlAttrs: { lang: 'fr' },
+      title: 'Jules Gay-Donat — Creative Developer',
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      // Injection critique
+      style: [
         {
-          name: "description",
-          content: "Création de sites web haute performance & sur-mesure.",
-        },
+          children: `
+            #server-side-loader {
+              position: fixed; inset: 0; z-index: 99999;
+              background: white; display: flex; flex-direction: column;
+              align-items: center; justify-content: center;
+              font-family: sans-serif; transition: opacity 0.6s ease-out;
+            }
+            .l-c { text-align: center; }
+            .l-t { font-weight: 900; font-size: 24px; letter-spacing: -0.05em; text-transform: uppercase; margin-bottom: 20px; color: black; }
+            .l-t span { opacity: 0.4; font-weight: 300; }
+            .l-b { width: 150px; height: 2px; background: rgba(0,0,0,0.05); position: relative; overflow: hidden; border-radius: 2px; margin: 0 auto; }
+            .l-p { position: absolute; inset: 0; background: black; width: 100%; transform: scaleX(0); transform-origin: left; animation: lp 2s infinite ease-in-out; }
+            @keyframes lp {
+              0% { transform: scaleX(0); transform-origin: left; }
+              50% { transform: scaleX(1); transform-origin: left; }
+              51% { transform: transform-origin: right; }
+              100% { transform: scaleX(0); transform-origin: right; }
+            }
+            #__nuxt { opacity: 0; transition: opacity 0.8s ease-in; }
+            .loaded #__nuxt { opacity: 1; }
+          `
+        }
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-    },
+      script: [
+        {
+          children: `
+            (function() {
+              const loader = document.createElement('div');
+              loader.id = 'server-side-loader';
+              loader.innerHTML = '<div class="l-c"><div class="l-t">Jules <span>Gay-Donat</span></div><div class="l-b"><div class="l-p"></div></div></div>';
+              document.documentElement.appendChild(loader);
+            })();
+          `,
+          type: 'text/javascript'
+        }
+      ]
+    }
   },
   vite: {
     server: {
-      allowedHosts: ["lo-app.tytarif.com"],
-    },
+      allowedHosts: ['lo-app.tytarif.com']
+    }
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
   googleFonts: {
+    display: 'swap',
     families: {
-      "Playfair Display": [400, 700],
-      Inter: [400, 700, 900],
-      Anton: [400],
-      "Libre Baskerville": [400],
-      "Courier Prime": [400],
-      "Roboto Mono": [400],
-    },
-  },
-});
+      'Playfair Display': [400, 700],
+      'Inter': [400, 700, 900],
+      'Anton': [400],
+      'Libre Baskerville': [400],
+      'Courier Prime': [400],
+      'Roboto Mono': [400]
+    }
+  }
+})

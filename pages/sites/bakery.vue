@@ -224,11 +224,8 @@
 
     <!-- MAIN CONTENT -->
     <main class="pt-20">
-      <!-- Hero -->
-      <section
-        ref="heroSection"
-        class="h-screen-dynamic flex flex-col justify-center items-center text-center relative overflow-hidden"
-      >
+          <!-- Hero -->
+          <section ref="heroSection" class="h-screen-dynamic flex flex-col justify-center items-center text-center relative overflow-hidden min-h-screen">
         <div class="absolute inset-0 bg-black opacity-40 z-10"></div>
         <div
           class="absolute inset-0 bg-cover bg-center scale-105"
@@ -400,6 +397,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 definePageMeta({
   layout: false,
+  hideHeader: true,
 });
 
 useHead({
