@@ -21,32 +21,32 @@
               <div class="space-y-4">
                 <span
                   class="text-[10px] font-bold uppercase tracking-[0.6em] text-amber-600 block anim-fade-up"
-                  >Apprentissage & Passion</span
+                  >Passion & Craft</span
                 >
                 <h1
                   class="text-7xl md:text-[10vw] font-black leading-[0.8] tracking-tighter uppercase anim-reveal-index"
                 >
                   Young <br />
                   <span class="italic font-light opacity-20 text-black"
-                    >Mind.</span
+                    >Vision.</span
                   >
                 </h1>
               </div>
 
               <div class="space-y-8 anim-fade-up" style="animation-delay: 0.4s">
                 <p class="text-2xl md:text-4xl font-light leading-tight">
-                  Passionné par le code et le design depuis mon enfance, j'ai aujourd'hui
+                  Autodidacte de 
                   <span
                     class="font-bold text-black border-b-2 border-amber-500/30"
                     >15 ans</span
-                  >.
+                  >, je conçois des interfaces numériques depuis plusieurs années.
                 </p>
                 <p
                   class="text-lg md:text-xl text-gray-500 leading-relaxed max-w-2xl"
                 >
-                  Je consacre mon temps libre à découvrir comment construire le web de demain. 
-                  Mon approche est celle d'un explorateur : j'apprends chaque jour à transformer 
-                  des idées en interfaces fluides, rapides et esthétiques.
+                  Je construis des expériences web modernes en alliant rigueur technique et design. 
+                  Mon objectif est de transformer chaque concept en une interface fluide, 
+                  rapide et esthétiquement irréprochable.
                 </p>
 
                 <div class="flex flex-wrap gap-8 items-center pt-8">
@@ -109,7 +109,7 @@
                   <h3
                     class="text-[10px] font-bold uppercase tracking-widest text-amber-600 mb-8"
                   >
-                    Outils & Apprentissage
+                    Stack & Outils
                   </h3>
                   <ul
                     class="space-y-5 text-sm font-bold uppercase tracking-[0.2em] text-black"
@@ -128,18 +128,18 @@
                     </li>
                     <li class="flex items-center gap-4">
                       <span class="w-2 h-2 bg-black rounded-full"></span> Stripe
-                      Integrations
+                      API
                     </li>
                     <li class="flex items-center gap-4">
                       <span class="w-2 h-2 bg-black rounded-full"></span> UI /
-                      UX Exploration
+                      UX Design
                     </li>
                   </ul>
                 </div>
                 <div
                   class="px-8 text-gray-400 text-sm leading-relaxed border-l-2 border-amber-500/20 py-2"
                 >
-                  Je réalise des projets personnels pour mettre en pratique ce que j'apprends et progresser chaque jour.
+                  Je développe des solutions numériques concrètes pour démontrer mon savoir-faire technique et créatif.
                 </div>
               </div>
             </div>

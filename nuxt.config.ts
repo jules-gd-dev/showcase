@@ -7,23 +7,23 @@ export default defineNuxtConfig({
     baseURL: '/showcase/',
     head: {
       htmlAttrs: { lang: 'fr' },
-      title: 'Jules GAY--DONAT | Jeune Développeur & Passionné de Design',
+      title: 'Jules GAY--DONAT | Développeur Créatif & Digital Architect',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Jules GAY--DONAT, développeur de 15 ans à Vannes. Exploration du web, création de sites et design d\'interfaces modernes.',
+            'Jules GAY--DONAT, développeur de 15 ans à Vannes. Création d\'interfaces haute-fidélité et architectures web modernes.',
         },
         // OpenGraph / Facebook
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://jules.tytarif.com' },
-        { property: 'og:title', content: 'Jules GAY--DONAT | Apprenti Développeur' },
+        { property: 'og:title', content: 'Jules GAY--DONAT | Creative Developer' },
         {
           property: 'og:description',
           content:
-            'Mon parcours d\'apprentissage à travers le design et le développement web.',
+            'Développement d\'interfaces numériques modernes et performantes.',
         },
         {
           property: 'og:image',
@@ -31,10 +31,10 @@ export default defineNuxtConfig({
         },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Jules GAY--DONAT | Apprenti Développeur' },
+        { name: 'twitter:title', content: 'Jules GAY--DONAT | Creative Developer' },
         {
           name: 'twitter:description',
-          content: 'Exploration créative et apprentissage du code.',
+          content: 'Interfaces haute-fidélité & Code moderne.',
         },
       ],
       link: [
@@ -88,8 +88,8 @@ export default defineNuxtConfig({
             "@type": "Person",
             "name": "Jules GAY--DONAT",
             "url": "https://jules.tytarif.com",
-            "jobTitle": "Apprenti Développeur",
-            "description": "Jeune passionné par Nuxt et le design d'interfaces.",
+            "jobTitle": "Développeur Créatif",
+            "description": "Développeur de 15 ans spécialisé en Nuxt et design d'interfaces.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Vannes",
