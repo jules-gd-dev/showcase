@@ -7,7 +7,7 @@
     <nav v-if="!hideGlobalUI" class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md h-20 flex items-center border-b border-black/[0.03]">
       <div class="container mx-auto px-6 flex justify-center items-center relative h-full">
         <NuxtLink to="/" class="font-bold text-sm md:text-xl tracking-tighter whitespace-nowrap uppercase hover:opacity-60 transition-opacity text-black">
-          Jules <span class="font-light opacity-40 tracking-[0.2em] ml-1">Gay-Donat</span>
+          Jules <span class="font-light opacity-40 tracking-[0.2em] ml-1">GAY--DONAT</span>
         </NuxtLink>
       </div>
     </nav>
@@ -26,7 +26,7 @@
       </div>
       <div class="container mx-auto px-6 h-px bg-black/[0.03] max-w-xs"></div>
       <div class="space-y-4 text-center">
-        <div class="font-bold text-lg tracking-tighter uppercase opacity-20 italic text-black">Jules Gay-Donat</div>
+        <div class="font-bold text-lg tracking-tighter uppercase opacity-20 italic text-black">Jules GAY--DONAT</div>
         <p class="opacity-20 text-[9px] font-bold uppercase tracking-[0.4em] text-black">© 2026 — Crafted with precision</p>
       </div>
     </footer>

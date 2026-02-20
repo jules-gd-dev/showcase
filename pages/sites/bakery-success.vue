@@ -57,13 +57,13 @@
             </p>
 
             <div class="pt-10 flex flex-col sm:flex-row gap-6 justify-center">
-              <a
-                href="/sites/bakery"
+              <NuxtLink
+                to="/sites/bakery"
                 class="bg-[#3A2E28] text-white px-10 py-4 rounded-full font-bold uppercase text-[10px] tracking-widest hover:bg-black transition-all shadow-lg"
               >
                 Retour au fournil
               </NuxtLink>
-              <a
+              <NuxtLink
                 to="/"
                 class="border border-[#3A2E28]/20 px-10 py-4 rounded-full font-bold uppercase text-[10px] tracking-widest hover:bg-[#3A2E28] hover:text-[#FDF8F0] transition-all"
               >

@@ -87,7 +87,7 @@
         class="container mx-auto px-4 md:px-6 h-16 md:h-20 flex items-center relative"
       >
         <div class="flex-1">
-          <a
+          <NuxtLink
             to="/"
             class="text-[10px] font-black uppercase tracking-widest hover:text-[#0052FF] transition-colors flex items-center gap-2"
           >
@@ -407,7 +407,7 @@
                   <span class="inline-block skew-x-[12deg]"
                     >Réserver ma séance</span
                   >
-                </NuxtLink>
+                </a>
               </div>
             </div>
           </div>
@@ -418,7 +418,7 @@
     <footer
       class="py-10 border-t border-white/5 text-center text-[8px] font-black uppercase tracking-[0.5em] text-gray-700"
     >
-      &copy; 2026 Energie Vitale — No Mercy — Design by Jules Case
+      &copy; 2026 Energie Vitale — No Mercy — Design by Jules GAY--DONAT
     </footer>
   </div>
 </template>

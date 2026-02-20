@@ -11,7 +11,7 @@
         class="container mx-auto px-4 md:px-6 h-20 flex items-center relative"
       >
         <div class="flex-1">
-          <a
+          <NuxtLink
             to="/"
             class="text-sm font-bold uppercase tracking-widest hover:opacity-60 transition-opacity flex items-center gap-2"
           >
@@ -378,13 +378,12 @@
         <div
           class="flex flex-wrap justify-center gap-8 mb-10 text-sm font-bold uppercase tracking-widest"
         >
-          <NuxtLink href="#" class="hover:text-amber-800 transition-colors">CGV</NuxtLink>
-          <NuxtLink href="#" class="hover:text-amber-800 transition-colors">CGU</NuxtLink>
-          <NuxtLink href="#" class="hover:text-amber-800 transition-colors"
-            >Mentions Légales</a
-          >
+          <NuxtLink to="#" class="hover:text-amber-800 transition-colors">CGV</NuxtLink>
+          <NuxtLink to="#" class="hover:text-amber-800 transition-colors">CGU</NuxtLink>
+          <NuxtLink to="#" class="hover:text-amber-800 transition-colors"
+            >Mentions Légales</NuxtLink>
         </div>
-        <p class="text-gray-400 text-sm">© 2026 Jules Case — Démo Portfolio</p>
+        <p class="text-gray-400 text-sm">© 2026 Jules GAY--DONAT — Démo Portfolio</p>
       </div>
     </footer>
   </div>
@@ -474,8 +473,7 @@ onUnmounted(() => {
 
 // --- SHOP LOGIC ---
 const URL_WEBAPP =
-  "https://script.google.com/macros/s/AKfycbwxFxeOInoIRRn3rNFsK0II-Vre5bkFHDtqeTzECdVA5uUGPn2G6WFX4cYLXkYxeAJ-/exec";
-const googleSheetCsvUrl =
+      "https://script.google.com/macros/s/AKfycbxG6nkUT5RTtCm7EDNHTEMD7zjs-0mtkKdJ7s4qNWRCVri7FGb5rBSX4Cux92_82Uk2/exec";const googleSheetCsvUrl =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vSHlHwNQj8W0CX68-qmCeyEX7HXpq5SuZfupRteRxAvOtfwRMAkD2_Gsr5e7N42gMrHeV7UPIUruL5k/pub?gid=0&single=true&output=csv";
 
 function ajouterAuPanier(priceId, nom) {

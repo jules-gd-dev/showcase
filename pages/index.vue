@@ -5,7 +5,7 @@
       <section class="min-h-[90svh] flex flex-col justify-center items-center text-center px-6 relative overflow-hidden bg-white">
         <div class="relative z-10 space-y-16 md:space-y-24 mt-10">
           <div class="space-y-6">
-            <span class="hero-sub text-[10px] font-bold uppercase tracking-[0.6em] opacity-30 block">Independent Developer — Jules Gay-Donat</span>
+            <span class="hero-sub text-[10px] font-bold uppercase tracking-[0.6em] opacity-30 block">Independent Developer — Jules GAY--DONAT</span>
             <h1 class="hero-title text-[15vw] md:text-[13vw] font-black leading-[0.75] tracking-tighter uppercase select-none text-black">
               Creative<br><span class="italic font-light opacity-20 text-black">Developer</span>
             </h1>
@@ -73,7 +73,7 @@
               </div>
               <div class="h-px w-16 md:w-24 bg-white/20 mx-auto"></div>
               <div class="space-y-8 flex flex-col items-center">
-                <a href="mailto:jules.gaydonat@gmail.com" title="Envoyer un email à Jules Gay-Donat" class="group block px-4">
+                <a href="mailto:jules.gaydonat@gmail.com" title="Envoyer un email à Jules GAY--DONAT" class="group block px-4">
                   <span class="text-[5.5vw] sm:text-2xl md:text-5xl font-bold tracking-tighter block transition-all duration-500 group-hover:text-amber-500 whitespace-nowrap overflow-hidden text-ellipsis text-white">jules.gaydonat@gmail.com</span>
                 </a>
                 <a href="mailto:jules.gaydonat@gmail.com" title="Prendre contact maintenant" class="inline-block text-[10px] font-bold uppercase tracking-widest py-4 px-10 border border-white/20 rounded-full hover:bg-white hover:text-black transition-all duration-500 shadow-xl text-white">Me contacter</a>
@@ -90,11 +90,11 @@
 import { onMounted } from 'vue';
 
 useSeoMeta({
-  title: 'Jules Gay-Donat — Portfolio & Showcase Créatif',
-  ogTitle: 'Jules Gay-Donat — Creative Developer',
+  title: 'Jules GAY--DONAT | Expert Digital & Creative Developer',
+  ogTitle: 'Jules GAY--DONAT | Creative Developer',
   description: 'Découvrez mes créations web : design UX/UI, développement Nuxt et solutions e-commerce Stripe innovantes.',
   ogDescription: 'Expertise en création de sites web haute performance.',
-  ogImage: 'https://lo-app.tytarif.com/og-image.jpg',
+  ogImage: 'https://jules.tytarif.com/og-image.jpg',
   twitterCard: 'summary_large_image',
 })
 
@@ -106,20 +106,24 @@ useHead({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Jules Gay-Donat",
+        "name": "Jules GAY--DONAT",
         "jobTitle": "Concepteur d'expériences numériques",
-        "url": "https://lo-app.tytarif.com",
+        "url": "https://jules.tytarif.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Vannes",
           "addressCountry": "FR"
         },
         "sameAs": [
-          "https://www.linkedin.com/in/votre-profil",
-          "https://github.com/votre-profil"
+          "https://github.com/jules-gd-dev/",
+          "https://fr.linkedin.com/in/jules-gay-donat-a44a37372",
+          "https://www.instagram.com/jul.esgd"
         ]
       })
     }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://jules.tytarif.com' }
   ]
 })
 

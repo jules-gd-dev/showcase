@@ -10,7 +10,7 @@
         class="container mx-auto px-4 md:px-6 h-16 md:h-20 flex items-center relative"
       >
         <div class="flex-1">
-          <a
+          <NuxtLink
             to="/"
             class="text-[10px] font-bold uppercase tracking-widest hover:text-[#4F5D75] transition-colors flex items-center gap-2"
           >
