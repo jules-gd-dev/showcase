@@ -12,7 +12,7 @@
       >
         <div class="flex-1">
           <a
-            href="/"
+            to="/"
             class="text-sm font-bold uppercase tracking-widest hover:opacity-60 transition-opacity flex items-center gap-2"
           >
             <svg
@@ -30,7 +30,7 @@
               />
             </svg>
             <span class="hidden sm:inline">Galerie</span>
-          </a>
+          </NuxtLink>
         </div>
         <div
           class="absolute left-1/2 -translate-x-1/2 font-serif text-2xl md:text-3xl font-bold"
@@ -378,9 +378,9 @@
         <div
           class="flex flex-wrap justify-center gap-8 mb-10 text-sm font-bold uppercase tracking-widest"
         >
-          <a href="#" class="hover:text-amber-800 transition-colors">CGV</a>
-          <a href="#" class="hover:text-amber-800 transition-colors">CGU</a>
-          <a href="#" class="hover:text-amber-800 transition-colors"
+          <NuxtLink href="#" class="hover:text-amber-800 transition-colors">CGV</NuxtLink>
+          <NuxtLink href="#" class="hover:text-amber-800 transition-colors">CGU</NuxtLink>
+          <NuxtLink href="#" class="hover:text-amber-800 transition-colors"
             >Mentions Légales</a
           >
         </div>

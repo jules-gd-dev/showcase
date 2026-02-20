@@ -44,7 +44,7 @@
 
               <div class="pt-8 anim-fade-up" style="animation-delay: 0.6s">
                 <a
-                  href="/"
+                  to="/"
                   class="group inline-flex items-center gap-4 text-xs font-bold uppercase tracking-widest hover:opacity-50 transition-opacity"
                 >
                   <div
@@ -66,7 +66,7 @@
                     </svg>
                   </div>
                   Retour à l'accueil
-                </a>
+                </NuxtLink>
               </div>
             </div>
 
@@ -94,7 +94,7 @@
                         class="text-xl md:text-2xl font-bold tracking-tight hover:text-amber-500 transition-colors break-all"
                       >
                         jules.gaydonat@gmail.com
-                      </a>
+                      </NuxtLink>
                     </div>
 
                     <div class="h-px w-full bg-white/10"></div>

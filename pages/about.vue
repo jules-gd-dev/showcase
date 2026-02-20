@@ -52,7 +52,7 @@
 
                 <div class="flex flex-wrap gap-8 items-center pt-8">
                   <a
-                    href="/"
+                    to="/"
                     class="text-xs font-bold uppercase tracking-widest opacity-30 hover:opacity-100 transition-opacity flex items-center gap-2"
                   >
                     <svg
@@ -70,7 +70,7 @@
                       />
                     </svg>
                     Retour à l'accueil
-                  </a>
+                  </NuxtLink>
                   <a
                     href="/contact"
                     class="group inline-flex items-center gap-4 text-xs font-bold uppercase tracking-widest hover:opacity-50 transition-opacity"
@@ -94,7 +94,7 @@
                         />
                       </svg>
                     </div>
-                  </a>
+                  </NuxtLink>
                 </div>
               </div>
             </div>
