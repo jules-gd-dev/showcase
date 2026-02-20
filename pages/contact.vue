@@ -43,7 +43,7 @@
               </p>
 
               <div class="pt-8 anim-fade-up" style="animation-delay: 0.6s">
-                <a
+                <NuxtLink
                   to="/"
                   class="group inline-flex items-center gap-4 text-xs font-bold uppercase tracking-widest hover:opacity-50 transition-opacity"
                 >
@@ -94,7 +94,7 @@
                         class="text-xl md:text-2xl font-bold tracking-tight hover:text-amber-500 transition-colors break-all"
                       >
                         jules.gaydonat@gmail.com
-                      </NuxtLink>
+                      </a>
                     </div>
 
                     <div class="h-px w-full bg-white/10"></div>

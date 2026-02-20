@@ -10,7 +10,7 @@
         class="container mx-auto px-4 md:px-6 h-16 md:h-20 flex items-center relative"
       >
         <div class="flex-1">
-          <a
+          <NuxtLink
             to="/"
             class="text-[9px] md:text-[10px] font-bold uppercase tracking-widest hover:opacity-50 transition-opacity flex items-center gap-2 text-[#4A6741]"
           >
@@ -306,7 +306,7 @@
       <p
         class="text-[9px] md:text-[10px] uppercase tracking-[0.3em] text-gray-400"
       >
-        &copy; 2026 Aux Bouquets du Bonheur — Design par Jules Case
+        &copy; 2026 Aux Bouquets du Bonheur — Design par Jules GAY--DONAT
       </p>
     </footer>
   </div>

@@ -10,7 +10,7 @@
         class="container mx-auto px-4 md:px-6 h-20 md:h-24 flex items-center relative"
       >
         <div class="flex-1">
-          <a
+          <NuxtLink
             to="/"
             class="text-[9px] md:text-[10px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] hover:text-[#D4AF37] transition-colors flex items-center gap-2"
           >
@@ -269,7 +269,7 @@
         modération.
       </p>
       <p class="text-[10px] uppercase tracking-widest text-gray-500">
-        &copy; 2026 Le Cépage Noble — Conçu par Jules Case
+        &copy; 2026 Le Cépage Noble — Conçu par Jules GAY--DONAT
       </p>
     </footer>
   </div>

@@ -10,7 +10,7 @@
         class="container mx-auto px-4 md:px-6 h-16 md:h-20 flex items-center relative"
       >
         <div class="flex-1">
-          <a
+          <NuxtLink
             to="/"
             class="text-[9px] md:text-[10px] font-bold uppercase tracking-widest hover:opacity-50 transition-opacity flex items-center gap-2"
           >
@@ -329,7 +329,7 @@
     <footer
       class="py-10 bg-[#2C2420] border-t border-white/5 text-center text-[9px] md:text-[10px] uppercase tracking-[0.4em] opacity-30 text-[#F4F1ED]"
     >
-      &copy; 2026 Le Grain Torréfié — Crafted by Jules Case
+      &copy; 2026 Le Grain Torréfié — Crafted by Jules GAY--DONAT
     </footer>
   </div>
 </template>

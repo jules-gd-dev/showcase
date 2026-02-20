@@ -7,19 +7,19 @@ export default defineNuxtConfig({
     baseURL: '/showcase/',
     head: {
       htmlAttrs: { lang: 'fr' },
-      title: 'Jules Gay-Donat — Concepteur d\'expériences numériques & Développeur Web',
+      title: 'Jules GAY--DONAT | Expert Digital & Creative Developer',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Jules Gay-Donat, concepteur expert à Vannes. Création de sites web haute performance, design UX/UI et intégrations Stripe sur-mesure.',
+            'Jules GAY--DONAT, concepteur expert à Vannes. Création de sites web haute performance, design UX/UI et intégrations Stripe sur-mesure.',
         },
         // OpenGraph / Facebook
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://jules-gd-dev.github.io/showcase' },
-        { property: 'og:title', content: 'Jules Gay-Donat — Creative Developer' },
+        { property: 'og:url', content: 'https://jules.tytarif.com' },
+        { property: 'og:title', content: 'Jules GAY--DONAT | Expert Digital & Creative Developer' },
         {
           property: 'og:description',
           content:
@@ -27,11 +27,11 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:image',
-          content: 'https://jules-gd-dev.github.io/showcase/og-image.jpg',
+          content: 'https://jules.tytarif.com/og-image.jpg',
         },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Jules Gay-Donat — Creative Developer' },
+        { name: 'twitter:title', content: 'Jules GAY--DONAT | Expert Digital & Creative Developer' },
         {
           name: 'twitter:description',
           content: 'Concepteur d\'expériences numériques sur-mesure.',
@@ -39,7 +39,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
-        { rel: 'canonical', href: 'https://jules-gd-dev.github.io/showcase' },
+        { rel: 'canonical', href: 'https://jules.tytarif.com' },
       ],
       style: [
         {
@@ -75,7 +75,7 @@ export default defineNuxtConfig({
               if (isBot) { document.documentElement.classList.add('loaded'); return; }
               const loader = document.createElement('div');
               loader.id = 'server-side-loader';
-              loader.innerHTML = '<div class="l-c"><div class="l-t">Jules <span>Gay-Donat</span></div><div class="l-b"><div class="l-p"></div></div></div>';
+              loader.innerHTML = '<div class="l-c"><div class="l-t">Jules <span>GAY--DONAT</span></div><div class="l-b"><div class="l-p"></div></div></div>';
               document.documentElement.appendChild(loader);
             })();
           `,
@@ -86,8 +86,8 @@ export default defineNuxtConfig({
           children: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Jules Gay-Donat",
-            "url": "https://jules-gd-dev.github.io/showcase",
+            "name": "Jules GAY--DONAT",
+            "url": "https://jules.tytarif.com",
             "jobTitle": "Creative Developer",
             "description": "Concepteur d'expériences numériques expert en Nuxt et design.",
             "address": {
@@ -96,7 +96,10 @@ export default defineNuxtConfig({
               "addressCountry": "FR"
             },
             "sameAs": [
-              "mailto:jules.gaydonat@gmail.com"
+              "mailto:jules.gaydonat@gmail.com",
+              "https://github.com/jules-gd-dev/",
+              "https://fr.linkedin.com/in/jules-gay-donat-a44a37372",
+              "https://www.instagram.com/jul.esgd"
             ]
           })
         }
@@ -105,7 +108,7 @@ export default defineNuxtConfig({
   },
   vite: {
     server: {
-      allowedHosts: ['lo-app.tytarif.com'],
+      allowedHosts: ['jules.tytarif.com'],
     },
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
