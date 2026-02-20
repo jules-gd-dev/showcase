@@ -7,23 +7,23 @@ export default defineNuxtConfig({
     baseURL: '/showcase/',
     head: {
       htmlAttrs: { lang: 'fr' },
-      title: 'Jules GAY--DONAT | Expert Digital & Creative Developer',
+      title: 'Jules GAY--DONAT | Jeune Développeur & Passionné de Design',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'Jules GAY--DONAT, concepteur expert à Vannes. Création de sites web haute performance, design UX/UI et intégrations Stripe sur-mesure.',
+            'Jules GAY--DONAT, développeur de 15 ans à Vannes. Exploration du web, création de sites et design d\'interfaces modernes.',
         },
         // OpenGraph / Facebook
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://jules.tytarif.com' },
-        { property: 'og:title', content: 'Jules GAY--DONAT | Expert Digital & Creative Developer' },
+        { property: 'og:title', content: 'Jules GAY--DONAT | Apprenti Développeur' },
         {
           property: 'og:description',
           content:
-            'Design d\'identités numériques et développement d\'interfaces haute fidélité.',
+            'Mon parcours d\'apprentissage à travers le design et le développement web.',
         },
         {
           property: 'og:image',
@@ -31,10 +31,10 @@ export default defineNuxtConfig({
         },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Jules GAY--DONAT | Expert Digital & Creative Developer' },
+        { name: 'twitter:title', content: 'Jules GAY--DONAT | Apprenti Développeur' },
         {
           name: 'twitter:description',
-          content: 'Concepteur d\'expériences numériques sur-mesure.',
+          content: 'Exploration créative et apprentissage du code.',
         },
       ],
       link: [
@@ -88,8 +88,8 @@ export default defineNuxtConfig({
             "@type": "Person",
             "name": "Jules GAY--DONAT",
             "url": "https://jules.tytarif.com",
-            "jobTitle": "Creative Developer",
-            "description": "Concepteur d'expériences numériques expert en Nuxt et design.",
+            "jobTitle": "Apprenti Développeur",
+            "description": "Jeune passionné par Nuxt et le design d'interfaces.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Vannes",
