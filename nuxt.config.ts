@@ -4,11 +4,43 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   app: {
+    baseURL: '/showcase/',
     head: {
       htmlAttrs: { lang: 'fr' },
-      title: 'Jules Gay-Donat — Creative Developer',
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-      // Injection critique
+      title: 'Jules Gay-Donat — Concepteur d\'expériences numériques & Développeur Web',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          name: 'description',
+          content:
+            'Jules Gay-Donat, concepteur expert à Vannes. Création de sites web haute performance, design UX/UI et intégrations Stripe sur-mesure.',
+        },
+        // OpenGraph / Facebook
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://lo-app.tytarif.com' },
+        { property: 'og:title', content: 'Jules Gay-Donat — Creative Developer' },
+        {
+          property: 'og:description',
+          content:
+            'Design d\'identités numériques et développement d\'interfaces haute fidélité.',
+        },
+        {
+          property: 'og:image',
+          content: 'https://lo-app.tytarif.com/og-image.jpg',
+        },
+        // Twitter
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Jules Gay-Donat — Creative Developer' },
+        {
+          name: 'twitter:description',
+          content: 'Concepteur d\'expériences numériques sur-mesure.',
+        },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'canonical', href: 'https://lo-app.tytarif.com' },
+      ],
       style: [
         {
           children: `
@@ -31,28 +63,50 @@ export default defineNuxtConfig({
             }
             #__nuxt { opacity: 0; transition: opacity 0.8s ease-in; }
             .loaded #__nuxt { opacity: 1; }
-          `
-        }
+          `,
+        },
       ],
       script: [
         {
           children: `
             (function() {
+              const userAgent = window.navigator.userAgent.toLowerCase();
+              const isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(userAgent);
+              if (isBot) { document.documentElement.classList.add('loaded'); return; }
               const loader = document.createElement('div');
               loader.id = 'server-side-loader';
               loader.innerHTML = '<div class="l-c"><div class="l-t">Jules <span>Gay-Donat</span></div><div class="l-b"><div class="l-p"></div></div></div>';
               document.documentElement.appendChild(loader);
             })();
           `,
-          type: 'text/javascript'
+          type: 'text/javascript',
+        },
+        {
+          type: 'application/ld+json',
+          children: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Jules Gay-Donat",
+            "url": "https://lo-app.tytarif.com",
+            "jobTitle": "Creative Developer",
+            "description": "Concepteur d'expériences numériques expert en Nuxt et design.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Vannes",
+              "addressCountry": "FR"
+            },
+            "sameAs": [
+              "mailto:jules.gaydonat@gmail.com"
+            ]
+          })
         }
-      ]
-    }
+      ],
+    },
   },
   vite: {
     server: {
-      allowedHosts: ['lo-app.tytarif.com']
-    }
+      allowedHosts: ['lo-app.tytarif.com'],
+    },
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
   googleFonts: {
@@ -63,7 +117,7 @@ export default defineNuxtConfig({
       'Anton': [400],
       'Libre Baskerville': [400],
       'Courier Prime': [400],
-      'Roboto Mono': [400]
-    }
-  }
-})
+      'Roboto Mono': [400],
+    },
+  },
+});
