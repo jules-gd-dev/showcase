@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   app: {
     baseURL: '/showcase/',
+    buildAssetsDir: 'assets',
     head: {
       htmlAttrs: { lang: 'fr' },
       title: 'Jules Gay-Donat — Concepteur d\'expériences numériques & Développeur Web',
