@@ -15,12 +15,6 @@
             <p class="text-lg md:text-2xl font-light opacity-50 max-w-xl leading-relaxed text-black">
               Je suis <span class="font-bold text-black opacity-100">concepteur expert</span>, je transforme vos <span class="font-bold text-black opacity-100">expériences numériques</span> en interfaces haute fidélité.
             </p>
-            
-            <div class="flex flex-wrap justify-center gap-3 md:gap-6">
-              <div v-for="skill in ['Nuxt', 'Tailwind', 'Stripe', 'GSAP']" :key="skill" class="text-[9px] font-bold uppercase tracking-widest border border-black/10 py-2 px-5 rounded-full opacity-40">
-                {{ skill }}
-              </div>
-            </div>
           </div>
         </div>
 
