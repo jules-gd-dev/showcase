@@ -38,7 +38,7 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: 'favicon.svg' },
+        { rel: 'icon', type: 'image/svg+xml', href: 'favicon.svg?v=2' },
         { rel: 'canonical', href: 'https://jules.tytarif.com' },
       ],
       style: [
