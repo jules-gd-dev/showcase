@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   app: {
     baseURL: '/showcase/',
-    buildAssetsDir: 'assets',
     head: {
       htmlAttrs: { lang: 'fr' },
       title: 'Jules Gay-Donat — Concepteur d\'expériences numériques & Développeur Web',
@@ -19,7 +18,7 @@ export default defineNuxtConfig({
         },
         // OpenGraph / Facebook
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://lo-app.tytarif.com' },
+        { property: 'og:url', content: 'https://jules-gd-dev.github.io/showcase' },
         { property: 'og:title', content: 'Jules Gay-Donat — Creative Developer' },
         {
           property: 'og:description',
@@ -28,7 +27,7 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:image',
-          content: 'https://lo-app.tytarif.com/og-image.jpg',
+          content: 'https://jules-gd-dev.github.io/showcase/og-image.jpg',
         },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
@@ -39,8 +38,8 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://lo-app.tytarif.com' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'canonical', href: 'https://jules-gd-dev.github.io/showcase' },
       ],
       style: [
         {
@@ -88,7 +87,7 @@ export default defineNuxtConfig({
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Jules Gay-Donat",
-            "url": "https://lo-app.tytarif.com",
+            "url": "https://jules-gd-dev.github.io/showcase",
             "jobTitle": "Creative Developer",
             "description": "Concepteur d'expériences numériques expert en Nuxt et design.",
             "address": {

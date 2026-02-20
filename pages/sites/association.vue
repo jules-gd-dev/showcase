@@ -11,7 +11,7 @@
       >
         <div class="flex-1">
           <a
-            href="/"
+            to="/"
             class="text-[10px] font-bold uppercase tracking-widest hover:text-[#4F5D75] transition-colors flex items-center gap-2"
           >
             <svg
@@ -29,7 +29,7 @@
               />
             </svg>
             <span class="hidden sm:inline">Galerie</span>
-          </a>
+          </NuxtLink>
         </div>
 
         <div

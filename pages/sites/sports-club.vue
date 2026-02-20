@@ -88,7 +88,7 @@
       >
         <div class="flex-1">
           <a
-            href="/"
+            to="/"
             class="text-[10px] font-black uppercase tracking-widest hover:text-[#0052FF] transition-colors flex items-center gap-2"
           >
             <svg
@@ -106,7 +106,7 @@
               />
             </svg>
             <span class="hidden sm:inline">Galerie</span>
-          </a>
+          </NuxtLink>
         </div>
         <div
           class="absolute left-1/2 -translate-x-1/2 font-black text-lg md:text-3xl tracking-tighter italic whitespace-nowrap"
@@ -407,7 +407,7 @@
                   <span class="inline-block skew-x-[12deg]"
                     >Réserver ma séance</span
                   >
-                </a>
+                </NuxtLink>
               </div>
             </div>
           </div>
