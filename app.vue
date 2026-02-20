@@ -19,9 +19,12 @@
 
     <!-- FOOTER -->
     <footer v-if="!hideGlobalUI" class="py-20 text-center space-y-12 bg-white border-t border-black/[0.03]">
-      <div class="flex justify-center gap-12 text-[10px] font-bold uppercase tracking-[0.3em]">
+      <div class="flex flex-wrap justify-center gap-8 md:gap-12 text-[10px] font-bold uppercase tracking-[0.3em]">
         <NuxtLink to="/about" class="hover:text-amber-600 transition-colors text-black">À propos</NuxtLink>
         <NuxtLink to="/contact" class="hover:text-amber-600 transition-colors text-black">Contact</NuxtLink>
+        <a href="https://github.com/jules-gd-dev/" target="_blank" class="hover:text-amber-600 transition-colors text-black">GitHub</a>
+        <a href="https://fr.linkedin.com/in/jules-gay-donat-a44a37372" target="_blank" class="hover:text-amber-600 transition-colors text-black">LinkedIn</a>
+        <a href="https://www.instagram.com/jul.esgd" target="_blank" class="hover:text-amber-600 transition-colors text-black">Instagram</a>
         <a href="mailto:jules.gaydonat@gmail.com" class="hover:text-amber-600 transition-colors text-black">Email</a>
       </div>
       <div class="container mx-auto px-6 h-px bg-black/[0.03] max-w-xs"></div>

@@ -13,7 +13,7 @@
 
           <div class="hero-desc flex flex-col items-center space-y-10">
             <p class="text-lg md:text-2xl font-light opacity-50 max-w-xl leading-relaxed text-black">
-              Jules, <span class="font-bold text-black opacity-100">concepteur expert</span>, transforme vos <span class="font-bold text-black opacity-100">expériences numériques</span> en interfaces haute fidélité.
+              Je suis <span class="font-bold text-black opacity-100">concepteur expert</span>, je transforme vos <span class="font-bold text-black opacity-100">expériences numériques</span> en interfaces haute fidélité.
             </p>
             
             <div class="flex flex-wrap justify-center gap-3 md:gap-6">
@@ -72,10 +72,17 @@
                 <h2 class="text-4xl md:text-[7vw] font-bold tracking-tighter leading-none uppercase italic text-white text-center">Un projet <br> <span class="opacity-30 text-white">en tête ?</span></h2>
               </div>
               <div class="h-px w-16 md:w-24 bg-white/20 mx-auto"></div>
-              <div class="space-y-8 flex flex-col items-center">
+              <div class="space-y-12 flex flex-col items-center">
                 <a href="mailto:jules.gaydonat@gmail.com" title="Envoyer un email à Jules GAY--DONAT" class="group block px-4">
                   <span class="text-[5.5vw] sm:text-2xl md:text-5xl font-bold tracking-tighter block transition-all duration-500 group-hover:text-amber-500 whitespace-nowrap overflow-hidden text-ellipsis text-white">jules.gaydonat@gmail.com</span>
                 </a>
+                
+                <div class="flex flex-wrap justify-center gap-8 md:gap-12">
+                  <a href="https://github.com/jules-gd-dev/" target="_blank" class="text-[10px] font-bold uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity">GitHub</a>
+                  <a href="https://fr.linkedin.com/in/jules-gay-donat-a44a37372" target="_blank" class="text-[10px] font-bold uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity">LinkedIn</a>
+                  <a href="https://www.instagram.com/jul.esgd" target="_blank" class="text-[10px] font-bold uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity">Instagram</a>
+                </div>
+
                 <a href="mailto:jules.gaydonat@gmail.com" title="Prendre contact maintenant" class="inline-block text-[10px] font-bold uppercase tracking-widest py-4 px-10 border border-white/20 rounded-full hover:bg-white hover:text-black transition-all duration-500 shadow-xl text-white">Me contacter</a>
               </div>
             </div>
