@@ -1,9 +1,5 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="512" height="512" rx="60" fill="black"/>
-  <!-- Le Slash du développeur -->
-  <rect x="320" y="100" width="40" height="350" rx="20" transform="rotate(25 320 100)" fill="white" fill-opacity="0.2"/>
-  <!-- Le J minimaliste -->
-  <path d="M200 120V340C200 384.183 235.817 420 280 420C295 420 310 415 320 405" stroke="white" stroke-width="50" stroke-linecap="round"/>
-  <!-- Le point/pixel digital -->
-  <rect x="360" y="360" width="50" height="50" rx="10" fill="#F59E0B"/>
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 17H20" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 7L10 12L5 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
