@@ -114,14 +114,22 @@
                   </div>
 
                   <div class="pt-4">
-                    <div class="flex gap-6">
+                    <div class="flex flex-wrap gap-6">
                       <a
-                        href="#"
+                        href="https://github.com/jules-gd-dev/"
+                        target="_blank"
+                        class="text-xs font-bold uppercase tracking-widest hover:text-amber-500 transition-colors"
+                        >GitHub</a
+                      >
+                      <a
+                        href="https://fr.linkedin.com/in/jules-gay-donat-a44a37372"
+                        target="_blank"
                         class="text-xs font-bold uppercase tracking-widest hover:text-amber-500 transition-colors"
                         >LinkedIn</a
                       >
                       <a
-                        href="#"
+                        href="https://www.instagram.com/jul.esgd"
+                        target="_blank"
                         class="text-xs font-bold uppercase tracking-widest hover:text-amber-500 transition-colors"
                         >Instagram</a
                       >
