@@ -21,7 +21,7 @@
               <div class="space-y-4">
                 <span
                   class="text-[10px] font-bold uppercase tracking-[0.6em] text-amber-600 block anim-fade-up"
-                  >Personal Story</span
+                  >Passion & Craft</span
                 >
                 <h1
                   class="text-7xl md:text-[10vw] font-black leading-[0.8] tracking-tighter uppercase anim-reveal-index"
@@ -35,19 +35,18 @@
 
               <div class="space-y-8 anim-fade-up" style="animation-delay: 0.4s">
                 <p class="text-2xl md:text-4xl font-light leading-tight">
-                  Passionné par le code et le design, j'ai aujourd'hui
+                  Autodidacte de 
                   <span
                     class="font-bold text-black border-b-2 border-amber-500/30"
                     >15 ans</span
-                  >.
+                  >, je conçois des interfaces numériques depuis plusieurs années.
                 </p>
                 <p
                   class="text-lg md:text-xl text-gray-500 leading-relaxed max-w-2xl"
                 >
-                  Je me concentre sur la création d'interfaces fluides et
-                  d'architectures web modernes. Mon approche est simple :
-                  transformer des concepts complexes en expériences numériques
-                  claires, rapides et esthétiques.
+                  Je construis des expériences web modernes en alliant rigueur technique et design. 
+                  Mon objectif est de transformer chaque concept en une interface fluide, 
+                  rapide et esthétiquement irréprochable.
                 </p>
 
                 <div class="flex flex-wrap gap-8 items-center pt-8">
@@ -69,7 +68,7 @@
                         d="M10 19l-7-7m0 0l7-7m-7 7h18"
                       />
                     </svg>
-                    Retour à l'accueil
+                    Accueil
                   </NuxtLink>
                   <NuxtLink
                     to="/contact"
@@ -110,7 +109,7 @@
                   <h3
                     class="text-[10px] font-bold uppercase tracking-widest text-amber-600 mb-8"
                   >
-                    Stack & Expertise
+                    Stack & Outils
                   </h3>
                   <ul
                     class="space-y-5 text-sm font-bold uppercase tracking-[0.2em] text-black"
@@ -125,7 +124,7 @@
                     </li>
                     <li class="flex items-center gap-4">
                       <span class="w-2 h-2 bg-black rounded-full"></span>
-                      TypeScript
+                      Vite & Modern Web
                     </li>
                     <li class="flex items-center gap-4">
                       <span class="w-2 h-2 bg-black rounded-full"></span> Stripe
@@ -140,8 +139,7 @@
                 <div
                   class="px-8 text-gray-400 text-sm leading-relaxed border-l-2 border-amber-500/20 py-2"
                 >
-                  Je développe des solutions concrètes pour démontrer mon
-                  savoir-faire technique et créatif.
+                  Je développe des solutions numériques concrètes pour démontrer mon savoir-faire technique et créatif.
                 </div>
               </div>
             </div>
@@ -151,6 +149,8 @@
     </main>
   </div>
 </template>
+
+<script setup></script>
 
 <style scoped>
 .anim-reveal-index {

@@ -5,15 +5,15 @@
       <section class="min-h-[90svh] flex flex-col justify-center items-center text-center px-6 relative overflow-hidden bg-white">
         <div class="relative z-10 space-y-16 md:space-y-24 mt-10">
           <div class="space-y-6">
-            <span class="hero-sub text-[10px] font-bold uppercase tracking-[0.6em] opacity-30 block">Independent Developer — Jules GAY--DONAT</span>
+            <span class="hero-sub text-[10px] font-bold uppercase tracking-[0.6em] opacity-30 block">Independent Developer & UI Enthusiast — Jules GAY--DONAT</span>
             <h1 class="hero-title text-[15vw] md:text-[13vw] font-black leading-[0.75] tracking-tighter uppercase select-none text-black">
-              Creative<br><span class="italic font-light opacity-20 text-black">Developer</span>
+              Creative<br><span class="italic font-light opacity-20 text-black">Mind.</span>
             </h1>
           </div>
 
           <div class="hero-desc flex flex-col items-center space-y-10">
             <p class="text-lg md:text-2xl font-light opacity-50 max-w-xl leading-relaxed text-black">
-              Je suis <span class="font-bold text-black opacity-100">concepteur expert</span>, je transforme vos <span class="font-bold text-black opacity-100">expériences numériques</span> en interfaces haute fidélité.
+              À 15 ans, je conçois des <span class="font-bold text-black opacity-100">expériences numériques</span> modernes en alliant rigueur technique et esthétique.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@
                   <a href="https://www.instagram.com/jul.esgd" target="_blank" class="text-[10px] font-bold uppercase tracking-widest opacity-40 hover:opacity-100 transition-opacity">Instagram</a>
                 </div>
 
-                <a href="mailto:jules.gaydonat@gmail.com" title="Prendre contact maintenant" class="inline-block text-[10px] font-bold uppercase tracking-widest py-4 px-10 border border-white/20 rounded-full hover:bg-white hover:text-black transition-all duration-500 shadow-xl text-white">Me contacter</a>
+                <NuxtLink to="/contact" title="Prendre contact maintenant" class="inline-block text-[10px] font-bold uppercase tracking-widest py-4 px-10 border border-white/20 rounded-full hover:bg-white hover:text-black transition-all duration-500 shadow-xl text-white">Me contacter</NuxtLink>
               </div>
             </div>
           </div>
@@ -91,10 +91,10 @@
 import { onMounted } from 'vue';
 
 useSeoMeta({
-  title: 'Jules GAY--DONAT | Expert Digital & Creative Developer',
+  title: 'Jules GAY--DONAT | Développeur Créatif & Digital Architect',
   ogTitle: 'Jules GAY--DONAT | Creative Developer',
-  description: 'Découvrez mes créations web : design UX/UI, développement Nuxt et solutions e-commerce Stripe innovantes.',
-  ogDescription: 'Expertise en création de sites web haute performance.',
+  description: 'Développeur de 15 ans spécialisé dans la création d\'interfaces web haute-fidélité.',
+  ogDescription: 'Interfaces haute-fidélité & Code moderne.',
   ogImage: 'https://jules.tytarif.com/og-image.jpg',
   twitterCard: 'summary_large_image',
 })
@@ -108,7 +108,7 @@ useHead({
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Jules GAY--DONAT",
-        "jobTitle": "Concepteur d'expériences numériques",
+        "jobTitle": "Développeur Créatif",
         "url": "https://jules.tytarif.com",
         "address": {
           "@type": "PostalAddress",
@@ -129,12 +129,12 @@ useHead({
 })
 
 const sites = [
-  { id: 'bakery', title: 'Le Pain Doré', description: "L'excellence boulangère en ligne.", url: '/sites/bakery', category: 'E-commerce', imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1000' },
-  { id: 'wine-seller', title: 'Le Cepage Noble', description: "Prestige et héritage viticole.", url: '/sites/wine-seller', category: 'Luxe', imageUrl: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1000' },
-  { id: 'sports-club', title: 'Energie Vitale', description: "Performance brute et discipline.", url: '/sites/sports-club', category: 'Fitness', imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000' },
-  { id: 'florist', title: 'Aux Bouquets du Bonheur', description: "Poésie florale minimaliste.", url: '/sites/florist', category: 'Art floral', imageUrl: 'https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=1000' },
-  { id: 'cafe', title: 'Le Grain Torréfié', description: "L'art de la pause urbaine.", url: '/sites/cafe', category: 'Éditorial', imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000' },
-  { id: 'association', title: 'Entraide & Avenir', description: "L'humain au cœur du lien social.", url: '/sites/association', category: 'Social', imageUrl: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=1000' },
+  { id: 'bakery', title: 'Le Pain Doré', description: "Démonstration d'une plateforme e-commerce boulanger complète.", url: '/sites/bakery', category: 'E-commerce', imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1000' },
+  { id: 'wine-seller', title: 'Le Cepage Noble', description: "Site vitrine haut de gamme pour un domaine viticole.", url: '/sites/wine-seller', category: 'Luxe', imageUrl: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=1000' },
+  { id: 'sports-club', title: 'Energie Vitale', description: "Interface dynamique pour un club de fitness moderne.", url: '/sites/sports-club', category: 'Fitness', imageUrl: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000' },
+  { id: 'florist', title: 'Aux Bouquets du Bonheur', description: "Minimalisme floral et poésie numérique.", url: '/sites/florist', category: 'Art floral', imageUrl: 'https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=1000' },
+  { id: 'cafe', title: 'Le Grain Torréfié', description: "L'art de la pause urbaine retranscrit en pixels.", url: '/sites/cafe', category: 'Style', imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000' },
+  { id: 'association', title: 'Entraide & Avenir', description: "L'humain au cœur du lien social par le design.", url: '/sites/association', category: 'Social', imageUrl: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=1000' },
 ];
 
 onMounted(async () => {
